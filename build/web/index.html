@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Agrarian Development</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style/mcastyle.css" type="text/css">
+        <!-- Custom CSS -->
+        <link href="css/business-casual.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="brand">Agrarian Development</div>
+        <div class="address-bar">A platform to manage your own Fields | Crops | Farms</div>
+
+
+        <!---- --------------->
+
+        <span class="tooltip" onmouseover="tooltip.pop(this, 'Lorem ipsum dolor...mauris')">
+            Basic
+        </span>
+
+        <span class="tooltip" onmouseover="tooltip.pop(this, '<span class=\'red\'>Hi</span> there', {position: 0})">
+            A little spice
+        </span>
+
+        <!-- ------------------->
+
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                    <a class="navbar-brand" href="index.html">Business Casual</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">USER GUIDLINE</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- -------------------------------------------------->      
+    <center>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div id="map">
+
+
+                        <img id="imagemap" src="images/field.png" usemap="#map" border="3" style=" border-style: solid; border-width: 20px; border-color: rgba(249,252,247,0.7);" />
+                        <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                        <!-- MAPPING -->
+                        <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                        <map name="map" id="mapid">
+                            <a class="cmenu1"><area shape="rect" coords="811,810,813,812" alt="Image Map" style="outline:none;" title="Image Map" href="#" /></a>
+                            <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                            <a  >
+                                <area class="cmenu3" onmouseover="  if (document.images)
+                                            document.getElementById('imagemap').src = 'images/1a.png';  i = 'wheat_id';"  href="wheatt.html" shape="poly" onmouseout="if (document.images)
+                                                        document.getElementById('imagemap').src = 'images/field.png';" coords="114,2,122,59,138,70,145,94,156,116,156,124,203,191,252,167,307,198,375,219,456,1" style="outline:none;" target="_self"    />    
+                            </a>
+                            <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                            <a class="cmenu3">
+
+                                <area naem="rice" alt="field 2" title="" href="ricet.html" shape="poly" coords="521,1,506,44,451,43,386,218,386,265,482,318,654,200,648,139,613,138,580,29,551,77,522,70,543,4" style="outline:none;" target="_self"  id="2a" onmouseover="if (document.images)
+                                            document.getElementById('imagemap').src = 'images/2a.png';
+                                        i = 'rice_id'" onmouseout="if (document.images)
+                                                    document.getElementById('imagemap').src = 'images/field.png';"  />
+
+                            </a>
+                            <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                            <a class="cmenu3">
+                                <area name="maize" alt="field 3" title="" href="maizet.html" shape="poly" coords="741,263,763,304,760,313,789,355,687,426,610,357,636,322,669,300,691,286" style="outline:none;" target="_self"  onmouseover="if (document.images)
+                                            document.getElementById('imagemap').src = 'images/3a.png';
+                                        i = 'maize_id'" onmouseout="if (document.images)
+                                                    document.getElementById('imagemap').src = 'images/field.png';"  />
+                            </a>
+                            <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                            <a class="cmenu3">
+                                <area name="soya" alt="field 4" title="" href="soyat.html" shape="poly" coords="597,372,547,427,511,447,608,560,701,476" style="outline:none;" target="_self"  onmouseover="if (document.images)
+                                            document.getElementById('imagemap').src = 'images/4a.png';
+                                        i = 'soya_id'" onmouseout="if (document.images)
+                                                    document.getElementById('imagemap').src = 'images/field.png';"  />
+                            </a>
+                            <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                        </map>
+                        <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                        <!-- END OF MAPPING -->
+                        <!-- ------------------------------------------------------------------------------------------------------------------------------------->
+                        </p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------------------->
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Easily Manage
+                            <strong>Seeding</strong>
+                        </h2>
+                        <hr>
+                        <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="" height="250" width="250">
+                        <hr class="visible-xs">
+                        <p>The thrill of growing new plants from seed is an experience universal to all gardeners. For the inveterate farmers  amongst us the number of pots sown with seed very soon multiplies and threatens to consume all of the space available in greenhouses and cold frames. As this stage approaches the importance of keeping some records of one's successes and failures, methods and ideas, begins to make itself felt.Our website helps the user to manage all the seeding records.</p>
+
+                        <p>In today's world the retrieval of information has been greatly aided by the advent of the desk-top computer and many keen gardeners of more analytical bent may keep records on magnetic discs. Such a system is clearly very compact and efficient, bearing in mind the occasional drawbacks resulting from power cuts, gremlins in the system and operator error. Thats why our website provide retrival of all the data that is been managed by the user.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Easily Manage
+                            <strong>Fertilization</strong>
+                        </h2>
+                        <hr>
+                        <img class="img-responsive img-border img-left" src="images/ff.jpg" height="250" width="250">
+                        <hr class="visible-xs">
+                        <p>Our powerful and easy-to-use Aggrarian website is helping hundreds of superintendents and professional turf managers cut down on paperwork and make better decisions.  Browse our website to learn more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Easily Manage
+                            <strong>Harvesting</strong>
+                        </h2>
+                        <hr>
+                        <img class="img-responsive img-border img-right" src="img/04.jpg" alt="" height="250" width="250">
+                        <hr class="visible-xs">
+                        <p>Record keeping can be time consuming and take valuable time away from your field work. Hence its another aspect of our website that it can manage all the harvesting records and can be easily managed by the user.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Managing
+                            <strong>Records</strong>
+                        </h2>
+                        <hr>
+                        <hr class="visible-xs">
+                        <p>Most producers do not enjoy the record keeping process. You will need to set aside a specific day or time to work on record keeping. Keep your records in a specific place such as an office with a desk and file cabinets can make retrival of records much difficult.<a href="#">AGGRARIAN</a> will make your work easy, smooth and intresting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>Copyright &copy; NIT Raipur MCA 2016</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="jQuery/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="jQuery/mcacontext.js"></script>
+        <script type="text/javascript" src="jQuery/mcamenu.js"></script>
+        <!-- Script to Activate the Carousel -->
+        <script>
+                                            $('.carousel').carousel({
+                                                interval: 5000 //changes the speed
+                                            });
+        </script>
+
+    </body>
+
+</html>

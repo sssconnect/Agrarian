@@ -1,0 +1,1 @@
+com.agrarian.harveste_vo.HarvestingValueObject
